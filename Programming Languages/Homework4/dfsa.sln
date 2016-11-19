@@ -1,0 +1,39 @@
+Loading model from dfsa.txt
+Model Loaded Succesfully 
+
+DFSA
+Number of States: 2
+Initial State: 1
+Accepting States: 1
+Input Alphabet: a b
+Transition Table:
+(1,a)->1
+(1,b)->2
+(2,a)->2
+(2,b)->1
+
+Please enter one of the commands to continue:
+r input ( Prints output of the model on the input
+h input ( Prints configuration history of the model on the input
+q (quit) 
+
+Input: abab
+Output: ACCEPT
+Input: aabbaabb
+Output: ACCEPT
+Input: ab
+Output: REJECT
+Input: abb
+Output: ACCEPT
+Input: bbba
+Output: REJECT
+Input: babab
+Computation History:
+1 Xbabab
+2 bXabab
+2 baXbab
+1 babXab
+1 babaXb
+2 bababX
+REJECT
+Quitting...

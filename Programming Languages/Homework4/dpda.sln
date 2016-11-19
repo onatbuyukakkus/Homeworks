@@ -1,0 +1,48 @@
+Loading model from dpda.txt
+Model Loaded Succesfully 
+
+DPDA
+Number of States: 5
+Initial State: 1
+Accepting States: 5
+Input Alphabet: $ a b
+Stack Alphabet: S a b
+Transition Table:
+(1,E,E)->(2,S)
+(2,$,E)->(5,E)
+(2,a,E)->(3,E)
+(2,b,E)->(4,E)
+(3,E,S)->(3,aSb)
+(3,E,a)->(2,E)
+(4,E,S)->(4,E)
+(4,E,b)->(2,E)
+
+Please enter one of the commands to continue:
+r input ( Prints output of the model on the input
+h input ( Prints configuration history of the model on the input
+q (quit) 
+
+Input: abba$
+Output: REJECT
+Input: abb$
+Output: REJECT
+Input: ba$
+Computation History:
+1 Xba$ E
+2 Xba$ S
+4 bXa$ S
+4 bXa$ E
+REJECT
+Input: ab$
+Computation History:
+1 Xab$ E
+2 Xab$ S
+3 aXb$ S
+3 aXb$ aSb
+2 aXb$ Sb
+4 abX$ Sb
+4 abX$ b
+2 abX$ E
+5 ab$X E
+ACCEPT
+Quitting...

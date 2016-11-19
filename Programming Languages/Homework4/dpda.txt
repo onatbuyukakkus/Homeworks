@@ -1,0 +1,14 @@
+5
+1
+1 5
+3 $ a b
+3 S a b
+8
+1 E E 2 S
+2 a E 3 E
+2 b E 4 E
+2 $ E 5 E
+3 E a 2 E
+3 E S 3 aSb
+4 E S 4 E
+4 E b 2 E
