@@ -1,0 +1,49 @@
+2
+0 0 0
+25 25 25
+2
+-4 4 -10
+255 255 255
+4 4 -10
+255 255 255
+1
+#Material 1
+1 1 1 
+1 1 1 
+1 1 1 100 
+0 0 0       
+#Textures
+1
+earth.jpg
+#Translation
+3
+-30.0 0 -100
+-10 0 -100
+20.0 0 -100
+#Scaling
+3
+3 3 3
+5 5 5
+12 12 12 
+#Rotation
+1
+0 0 1 0
+3
+#SphereInstance
+1
+1 
+2
+s 1
+t 1
+#SphereInstance
+1 
+1 
+2
+s 2
+t 2
+#SphereInstance
+1 
+1 
+2
+s 3
+t 3
