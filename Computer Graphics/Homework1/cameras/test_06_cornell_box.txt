@@ -1,0 +1,19 @@
+3
+#Camera 1
+0 0 20
+0 0 -1
+0 1 0
+-10 10 -10 10 10 1024 1024
+test_06_cornell_box_front.ppm
+#Camera 2
+0 0 20
+0 0 -1
+0 -1 0
+-10 10 -10 10 10 1024 1024
+test_06_cornell_box_inverse.ppm
+#Camera 3
+0 10 0
+0 -1 0
+0 0 -1
+-10 10 -10 10 10 1024 1024
+test_06_cornell_box_top.ppm

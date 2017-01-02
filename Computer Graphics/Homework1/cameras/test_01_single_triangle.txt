@@ -1,0 +1,7 @@
+1
+#Camera 1
+0 0 0
+0 0 -1
+0 1 0
+-10 10 -10 10 1 512 512
+test_01_single_triangle.ppm

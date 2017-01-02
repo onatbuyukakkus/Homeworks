@@ -1,0 +1,7 @@
+1
+#Camera 1
+0 0 0
+0 0 -1
+0 1 0
+-1 1 -1 1 1 512 512
+test_02_single_sphere.ppm
